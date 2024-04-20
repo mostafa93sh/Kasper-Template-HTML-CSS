@@ -85,3 +85,43 @@ body{
     
 
 }
+
+.home .container .home-content{
+    /* position: relative; */
+    position: absolute;
+    top:25%;
+    left: 0;
+    width:50%;
+    height: 300px;
+    background-color:rgba(15, 116, 143, 0.7) ;
+    padding: 30px 50px;
+    padding-top: 55px;
+}
+.home .container .home-content .text-section{
+    /* position: absolute;
+    top:25%;
+    left: 0;
+    width:50%;
+    height: 300px;
+    background-color: #09c;
+    opacity: 0.35;
+    padding: 30px 40px; */
+    
+}
+.home .container .home-content .text-section p{
+    padding-left: 75px;
+    color: #fff;
+    margin: 0;
+    margin-top: 9px;
+
+}
+.home .container .home-content .text-section p:not(:last-child){
+    
+    font-size: 30px;
+    
+}
+.home .container .home-content .text-section p:last-child{
+    line-height: 1.8;
+    font-size: 15px;
+    
+}
