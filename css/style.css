@@ -162,3 +162,25 @@ body {
   font-size: 35px;
   font-weight: 800;
 }
+.home .container .paganation-dots {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.home .container .paganation-dots ul {
+  list-style: none;
+}
+.home .container .paganation-dots ul li {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #fff;
+  margin-right: 15px;
+}
+.home .container .paganation-dots ul li:nth-child(2) {
+  background-color: #09c;
+  border: none;
+}
