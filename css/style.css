@@ -489,4 +489,156 @@ body {
   padding: 12px 20px;
   border-radius: 2px;
   font-size: 1.1rem;
+  cursor: pointer;
+}
+/* ==============================================VIDEO ===================================================== */
+/* ==============================================VIDEO ===================================================== */
+/* ==============================================VIDEO ===================================================== */
+/* ==============================================VIDEO ===================================================== */
+.video {
+  position: relative;
+}
+.video::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000055;
+}
+.video .text {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  background-color: #0099cc66;
+  z-index: 1;
+  text-align: center;
+  color: #ffffff;
+  padding: 50px;
+}
+.video .text h4 {
+  font-weight: 400;
+  font-size: 1.425rem;
+  margin-bottom: 20px;
+}
+.video .text p {
+  margin-bottom: 20px;
+}
+.video .text button {
+  border: none;
+  background-color: #181717;
+  padding: 9px 13px;
+  color: white;
+  border-radius: 5px;
+}
+/* ===============================================About us================================================ */
+/* ===============================================About us================================================ */
+/* ===============================================About us================================================ */
+/* ===============================================About us================================================ */
+.about-us {
+  /* min-height: 100vh; */
+  padding: 70px;
+  height: 540px;
+  overflow: hidden;
+}
+.about-us .intro-section {
+  text-align: center;
+  width: 550px;
+  margin: auto;
+}
+.about-us .intro-section h3 {
+  font-size: 2.3rem;
+  font-weight: normal;
+  margin-bottom: 70px;
+  position: relative;
+  text-transform: uppercase;
+}
+.about-us .intro-section h3::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 2px;
+  background-color: #555;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.about-us .intro-section h3::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #555;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -38px;
+  z-index: 2;
+  background-color: #fff;
+}
+.about-us .intro-section p {
+  color: #777;
+  line-height: 2;
+}
+.about-us .image img {
+  max-width: 100%;
+}
+.about-us .image {
+  position: relative;
+  bottom: -122px;
+  left: 65%;
+  transform: translateX(-50%);
+}
+/* ========================================Stauts============================================================= */
+/* ========================================Stauts============================================================= */
+/* ========================================Stauts============================================================= */
+.status {
+  padding: 100px;
+  background-image: url("../images/stats.png");
+  background-size: cover;
+  position: relative;
+}
+.status::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000091;
+}
+.status .container {
+  width: 98%;
+  margin: auto;
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+  justify-content: space-around;
+  background-color: rgba(0, 153, 204, 0.507);
+}
+.status .container .box {
+  color: white;
+  padding: 50px;
+  text-align: center;
+  flex-basis: 23%;
+}
+.status .container .box .icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 30px;
+  background-color: #181717;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.status .container .box .number {
+  font-size: 3.45rem;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
