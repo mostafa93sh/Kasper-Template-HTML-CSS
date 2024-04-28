@@ -256,3 +256,61 @@ body {
   line-height: 2;
   color: #777;
 }
+/* =====================================DESIGN FEATURES================================================== */
+/* =====================================DESIGN FEATURES================================================== */
+/* =====================================DESIGN FEATURES================================================== */
+/* =====================================DESIGN FEATURES================================================== */
+/* =====================================DESIGN FEATURES================================================== */
+.design-features {
+  height: 600px;
+  background-image: url("../images/design-features.jpg");
+  background-size: cover;
+  /* overflow: hidden; */
+}
+.design-features .container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.562);
+  overflow: hidden;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-around; */
+}
+.design-features .container .image {
+  position: absolute;
+  bottom: -68px;
+  left: 157px;
+}
+.design-features .container .text {
+  color: white;
+  padding: 50px;
+  background-color: rgba(15, 116, 143, 0.7);
+  width: 44%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+.design-features .container .text h3 {
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+.design-features .container .text ul {
+  list-style-type: none;
+}
+.design-features .container .text ul li {
+  margin: 17px 0;
+}
+.design-features .container .text ul li::before {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  /* font-family: "Font Awesome 6 Free"; */
+  font: var(--fa-font-solid);
+  content: "\f108";
+  margin-right: 15px;
+}
